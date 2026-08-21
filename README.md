@@ -384,3 +384,90 @@ SPEC-DRIVEN DEVELOPMENT (SDD)
     ├── Replan continuously
     └── Keep improving the workflow
 ```
+
+# Spec-Driven Development (SDD)
+
+## Core Concept
+
+**SDD is a methodology for structured AI-assisted software development.**
+
+```text
+Understand
+    ↓
+Specify
+    ↓
+Review
+    ↓
+Plan
+    ↓
+Review
+    ↓
+Implement
+    ↓
+Test & Verify
+```
+
+### SDD vs Frameworks
+
+**Superpowers, Spec Kit, and BMAD are different approaches to applying SDD.**
+
+```text
+                         SDD
+                    METHODOLOGY
+                         │
+             ┌───────────┼───────────┐
+             │           │           │
+             ▼           ▼           ▼
+        Superpowers   Spec Kit     BMAD
+        Agent         Artifacts    Roles
+        Workflow      + Tooling    + Phases
+             │           │           │
+             └───────────┼───────────┘
+                         │
+                         ▼
+              Cursor / Claude Code
+                         │
+                         ▼
+                    Codebase
+```
+
+### What They Focus On
+
+| Approach | Main Focus |
+|---|---|
+| **Superpowers** | Agent workflow + skills |
+| **Spec Kit** | Specs, plans, tasks + persistent artifacts |
+| **BMAD** | Specialized AI roles + development phases |
+
+### Practical Decision
+
+```text
+Is the task complex?
+       │
+   ┌───┴───┐
+  NO      YES
+  │        │
+  ▼        ▼
+Direct    Need structured
+AI coding  workflow?
+             │
+             ▼
+       Spec needs to be
+       shared / Git-tracked?
+          │          │
+         YES        NO
+          │          │
+          ▼          ▼
+      Spec Kit    Role/team
+                  separation?
+                    │
+                 ┌──┴──┐
+                YES    NO
+                 │      │
+                 ▼      ▼
+                BMAD  Superpowers
+```
+
+### Key Takeaway
+
+> **SDD is the methodology. Superpowers, Spec Kit, and BMAD are different ways of implementing structured AI-assisted development. Cursor and Claude Code are the execution environments.**
